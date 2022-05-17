@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "mowtwo",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "16.11.1",
     "typescript": "4.8.0-dev.20220515"
