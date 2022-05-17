@@ -22,7 +22,7 @@ export default class MAsm<R extends Record<string, string> = Record<string, stri
   operator(opr: keyof R) {
     this.writeLine(`${this.operatorMapper?.[opr] ?? this.unknownOpr}`)
   }
-  isUnkonwOperator(opr: string) {
+  isUnknownOperator(opr: string) {
     return opr === this.unknownOpr
   }
   get outCode() {
