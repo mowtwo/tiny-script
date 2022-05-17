@@ -22,7 +22,7 @@ export default class MAsm {
     operator(opr) {
         this.writeLine(`${this.operatorMapper?.[opr] ?? this.unknownOpr}`);
     }
-    isUnkonwOperator(opr) {
+    isUnknownOperator(opr) {
         return opr === this.unknownOpr;
     }
     get outCode() {

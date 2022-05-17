@@ -8,6 +8,6 @@ export default class MAsm<R extends Record<string, string> = Record<string, stri
     isOperator(opr: string): boolean;
     push(value: string | number): void;
     operator(opr: keyof R): void;
-    isUnkonwOperator(opr: string): boolean;
+    isUnknownOperator(opr: string): boolean;
     get outCode(): string;
 }
